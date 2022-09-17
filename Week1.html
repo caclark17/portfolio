@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 330 Portfolio</title>
+    
+
+</head>
+<body>
+    <h1>Week 1 Notes, Questions, and Practice</h1>
+    <h2>Master Mobile UX Notes</h2>
+        <ul>
+            <li>Always design for mobile first</li>
+            <li>Steve Jobs said that a lot of people don't know what they want until they see it</li>
+            <li>"Find a way to fill their needs as simply as possible."</li>
+            <li>Things you can do to make a difference: </li>
+                <ol>
+                    <li>Be there. If you're site or product is not on a mobile device then they will find an alternative.</li>
+                    <li>Be useful. Make it easy for them to find what they came for as quickly as possible or they will leave.</li>
+                    <li>Be quick. The loading must be quick and have good functionality. People get impatient.</li>
+                    
+                </ol>
+            <li>Make it easy for people to do things with one hand.</li>
+            <li>Reduse image usage</li>
+            <li>When using images use SVG/Webfonts</li>
+            <li>Optimize and minify CSS and JS files</li>
+            <li>GZIP files to remove unnecessary data</li>
+            <li>Put primary controls at the bottom of the page/app for reachability</li>
+            <li>Make boxes on forms large enough that users can target it easily</li>
+            <li>Enable auto complete on forms to cut down on time it takes to fill out</li>
+            <li>Use a link tag for phone number so users can just tap on it to call</li>
+            <li>Use adverstising sparingly. Make it small.</li>
+        </ul>
+
+    <h2>Doing Stuff With Web Things Notes</h2>
+        <ul>
+            <li>A variable is like a box you put stuff in to help you organize and keep track of</li>
+            <li>To save information in local storage: <br>
+                function saveStory(){ <br>
+                    var storyName = document.getElementById("name_input").value <br>
+                    var storyHTML = document.getElementById("story_editor").value <br>
+                    localStorage.setItem(storyName, storyHTML) <br>   
+                } <br>
+            
+                The last line saves the information that was store in the "storyName" and "storyHTML" variables so that if the user leaves the page and comes back then the information will still be there.
+                <br>
+                This is important to use when building apps to store the users information</li>
+                
+        </ul>
+
+        <h3>Practicing The Examples Given</h3>
+            <h4>Even or Odd?</h4>
+            Enter a Number: <input id=name_input></input>
+                <button onclick="checkNumber()">Check It!</button>
+            <section id="result_display"></section>
+
+            <p>Note: Having trouble getting the result to display. I'm thinking maybe I didn't link to the JS file correctly.</p>
+    
+            <script src="js/main.js"></script>
+            
+
+        </body>
+</html>
