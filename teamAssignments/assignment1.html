@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Assignment WW 330</title>
+</head>
+<body>
+    <h2>Problem 1</h2>
+    <input id="req1Input" type="text" />
+    <button id="req1Button" onclick="reqOne()">Enter</button>
+    <div id="req1Output"></div>
+
+    <h2>Problem 2</h2>
+    <input id="req2Input" type="number" />
+    <button id="req2Button" onclick="reqTwo()">Sum</button>
+    <div id="req2Output"></div>
+
+    <h2>Problem 3</h2>
+    <input id="req3Input" type="number" />
+    <input id="req4Input" type="number" />
+    <button id="plusButton" onclick="reqThree()">+</button>
+    <div id="req3Output"></div>
+
+
+    <script>
+        function reqOne() {
+           const input =document.getElementById('req1Input').value;
+           const outputElement = document.getElementById('req1Output');
+           outputElement.innerHTML = 'You entered: ' + input;
+        }
+
+        function reqTwo() {
+            const input = document.getElementById('req2Input').value;
+            const outputElement = document.getElementById('req2Output');
+            const inputInt = parseInt(input);
+            sum(inputInt)
+            if (inputInt !==NaN) {
+                outputElement.innerHTML = 'total ' + sum(inputInt);
+        }}
+        function sum(number) {
+            let total = 0;
+            for (let i = 1; i <= number; i++) 
+                total += i;
+            
+            return total;
+        }
+
+        function reqThree() {
+            let req3Input = document.getElementById('req3Input').value;
+            console.log(req3Input)
+            let req4Input = document.getElementById('req4Input').value;
+            
+            let outputNumber = document.getElementById("req3Output");
+            let inputAddition = parseInt(req4Input) + parseInt(req3Input);
+            outputNumber.innerHTML = inputAddition 
+    
+
+        }
+
+    </script>
+    
+</body>
+</html>

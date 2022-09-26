@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Reading Notes</title>
+</head>
+<body>
+    <h1>Week 2 Reading Notes</h1>
+    <h2>Chapter 2: Programming Basics</h2>
+        <ul>
+            <li>Something I forget to utilize is the "typeof" operator. Example: </li> 
+            <p>typeof 10</p>
+            <p> returns 'number'</p>
+            <li>Another thing I forget to utilize is declaring multiple variables at the same time. Example:</li>
+            <p>let x=3, y=4, z=5;</p>
+            <li>Local scope means a variable only exists within the block that it's declared in</li>
+            <li>Global scope means a variable can be used anywhere within a program, but you need to be careful because it can cause problems if you forget you already used it and then try to use it again.</li>
+            <li>name.toUpperCase() will change this variable to make all the letters caps</li>
+            <li>name.includes('a') will tell us if that letter is included in that string.</li>
+            <li>name.startsWith('A') is case-sensitive.</li>
+            <li>You can convert a number to a string by using String(3) (replace 3 with whatever number you want to use.</li>
+        
+
+        </ul>
+    <h2>Chapter 3: Arrays, Logic, and Loops</h2>
+        <ul>
+            <li>Initialize an array called fruit:</li>
+                <p>const fruit = [];</p>
+                <p>Add a value by putting in the number of the position where you want it placed:</p>
+                <p>fruit[1]= banana;</p>
+                <p>fruit[0]= apple;</p>
+            <li>The join method can turn an array into a string. Example:</li>
+                <p>fruit.join();</p>
+            <li> fruit.splice(5,0,'orange'); Would put orange at position 5 and not remove any items.</li>
+            <li>You can reverse the order of an array by using the reverse() method.</li>
+            <li>You can put the contents of an array in alphabetical order by using sort().</li>
+            <li>Using indexOf() will tell you the index location of an item in an array.</li>
+            <li>Sets are a collection of unique values.</li>
+            <li>A value can be placed in a set using the add() method.</li>
+            <li>Use the delete() method to remove a value from a set.</li>
+            <li>Maps keep a list of key and value pairs. </li>
+            <li>Using clear() will remove all keys and values from a map.</li>
+            <li>Maps can be converted to arrays using Array.from()</li>
+
+        </ul>
+
+        <h2>Chapter 4: Functions</h2>
+            <ul>
+                <li>Functions can be entered like a string such as:</li>
+                    <p>const hi = new Function('console.log("Hi World!");')</p>
+                    <p>This is not recommended though.</p>
+                    <li>Functions have to be called in order to run. Make sure to use the function name with parenthesis when calling.</li>
+
+                    <h3>Parameters and Arguments</h3>
+                    <ul>
+                        <li>Parameters are set when a function is defined.</li>
+                        <li>Arguments are provided when the function is invoked.</li>
+                            <p>Example:</p>
+                            <p>function square(x) {return x*x; }</p>
+                            <p>square(4.5);</p>
+                            <p>returns 20.25</p>
+                        <li>Default parameters can be used when no arguments are provided.</li>
+                        <li> Arrow functions are written:</li>
+                            <p>const square = x => x*x;</p>
+                            <p>This is a shortened way of writing a function.
+                            </p>
+                    <h3>Callbacks</h3>
+                    <ul>
+                        <li>
+                        A function that is passed as an argument to another is known as a callback.
+                        </li>
+                        <li></li>
+                    </ul>
+                    </ul>
+            </ul>
+    
+    <script>
+    const quiz = [
+        ["What is Superman's real name?", "Clark Kent"],
+        ["What is Wonder Woman's real name?", "Diana Prince"],
+        ["What is Batman's real name?", "Bruce Wayne"]
+    ];
+
+    function start(quiz){
+        let score = 0;
+
+        for (const [question,anser] of quiz){
+            const response = ask(question);
+            check(response,answer);
+
+        gameOver();
+
+        function check(response,answer){
+            if(response === answer){
+                alert('Correct!');
+                score++;
+            } else {
+                alert(`Wrong! The correct answer was ${answer}`);
+            }
+        }
+
+        function gameOver(){
+            alert(`Game over, you scored ${score} point${score !==1 ? 's' : ''}`);
+        }
+        }
+    }
+
+    start(quiz);
+
+
+    </script>
+    
+</body>
+</html>

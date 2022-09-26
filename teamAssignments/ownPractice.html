@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 2 Practicing Group Assignment</title>
+</head>
+<body>
+    <h2>Problem 1</h2>
+    <input id="reqInput1" type = "text" placeholder="Enter a describing word"/> <!--this creates the text box-->
+    <button id="button1" onclick="message1()">Submit</button> <!--this creates the button. The button will say Submit and clicking it fires the function.-->
+    <div id="reqOutput1"></div> <!--This is where the output will display-->
+
+    <script>
+        function message1() {
+            const myMessage = document.getElementById("reqInput1").value; //I'm taking the input from the text box and storing it in this variable
+            const displayedMessage = document.getElementById("reqOutput1"); //
+            displayedMessage.innerHTML = "Jason is " + myMessage;
+
+        }
+    </script>
+    
+</body>
+</html>
