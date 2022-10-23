@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 4 Reading Notes</title>
+</head>
+<body>
+    <h1>Week 4 Reading Notes</h1>
+        <h2>Forms</h2>
+            <ul>
+                <li>document.forms will show the user all of the forms that are contained within the document.</li>
+                <li>form.elements will show the user which elements are used in the forms.</li>
+                <li>form.submit will submit the form automatically.</li>
+                <li>The value property can be used to get the text that's inside that field.</li>
+                <li>The placeholder attribute allows the user to see what they need to input into that box but disappears as the user begins to type.</li>
+                <li>Common types of form controls are input, select, textarea, and button.</li>
+                <li>The number of characters entered can be controlled by using the maxlength attribute.</li>
+                <li>When allowing the user to select more than one option from a drop-down list then the "multiple" acttribute is required.</li>
+                <li>Another type of button other than submit is a reset button.</li>
+                    <p>Reset buttons are written: Vbutton type = 'reset'V Reset V/buttonV'</p>
+                    <p>How can I type code into my HTML so it only shows up on the page and doesn't actually execute?</p>
+                    <p>This way isn't recommended for usability reasons.</p>
+                    <p>Better way: Vbutton type='button'VClick MeV/buttongV</p>
+                <li>A submit button can be disabled if there are errors on the form by adding the "disabled" attribute.</li>
+            </ul>
+        <h2>Object-Oriented Programming in JavaScript</h2>
+            <ul>
+                <li>The 3 main concepts in OOP are encapsulation, polymorphism, and inheritance.</li>
+                <li>When the "instanceof" operator is used then it inherits the properties and methods that are defined in the function that it's referring to.</li>
+                <li>It's recommended to always use literals when creating arrays.</li>
+                <li>To see if an object has its own property you can use the hasOwnProperty() method.</li>
+                <li>Properties or methods that are inherited from it's prototype can be overwritten by assigning a new value to them.</li>
+                <li>Never use arrays or objects as a default value in prototype.</li>
+                <li>I can create an object using the properties of another variable. If I were to type const lois
+                    = Object.create(Human); then it would have the same properties as the word in parenthesis, which is Human.
+                    Human is also the prototype of lois.
+                </li>
+                <li>init accepts initialization properties.</li>
+                <li>Creating objects from other objects creates a prototype chain.</li>
+                    <ul>
+                        <p>Mixins</p>
+                        <li>A mixin adds each property one at a time to the literal that has been created.</li>
+                        <li>The mixin function allows a programmer to add a large number of properties to an object at one time.</li>
+                        <li>A mixin function can also create a copy object. The object that is supposed to be copied goes in as a parameter.</li>
+                    </ul>
+                <li>A factory function can be used to return an object.</li>
+                <li>A mixin allows us to put multiple properties and methods in an object without creating an inheritance chain.</li>
+                <li>Keep inheritance chains short when creating classes.</li>
+            </ul>
+        <h2>Modular JavaScript</h2>
+            <ul>
+                <li>A module can be used by other modules and in other files and is a self-contained piece of code that provides functions and methods.</li>
+                <li>Coupling refers to a piece of code that can only run if another piece of code runs. </li>
+                <li>watch() method keeps an eye on the form and checks when it is submitted.</li>
+            </ul>
+</body>
+</html>

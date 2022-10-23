@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 Practice Problems</title>
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1>Week 3 Notes and Practice</h1>
+    <h2>This</h2>
+        <p>A function that is a property of an object is called a method.</p>
+        <p>To access an object a method can use the "this" keyword.</p>
+        <p>Arrow functions don't have their own "this."</p>
+
+    <h2>Objects</h2>
+        <uL>
+            <li>An object is a self-contained set of values and functions like an array</li>
+            <li>If the value of a property is a function then it's called a <em>method</em></li>
+            <li>An <em>object literal</em> is wrapped in curly braces and contains all of it's properties and methods</li>
+            <li>All objects are mutable even when const is declared.</li>
+            <li>To call and object you can use dot or bracket notation.</li>
+                <p>superman.fly() OR superman['fly']()</p>
+            <li>An object is like a dictionary where you can see a value when you look up a property.</li>
+            <li>Calling a method is the same as invoking a function and can be written two ways:</li>
+                <p>superman.fly()</p>
+                <p>superman['fly']()</p>
+            <li>To loop through the properties and methods of an object:</li>
+                <p>for(const key in superman) {
+
+                </p>
+                <p>console.log(key + ": " + superman[key])'</p>
+                <p>}</p>
+            <li>You can remove a property by using the delete operator. Example: delete superman.fly</li>
+                <p>How often does a programmer actually use this? Why not just erase it from the code?</p>
+            <li>An object can contain other objects.</li>
+                <p>When would I want to use nested objects as opposed to an object literal?</p>
+            <li>Object literals can be passed as a parameter to a function.</li>
+            <li>Placing functions inside an obejct can help to prevent problems if you reuse a variable without realizing it. This is called namespacing.</li>
+            <li>JSON data can be easily turned into a JS object but using the parse() method.</li>
+                <p>Example: JSON.parse(batman);</p>
+            <li>A JS object can be turned into JSON by using stringify().</li>
+                <p>Example: JSON.stringify(wonderwoman);</p>
+            <li></li>
+        </uL>
+
+    <h2>Document Object Model</h2>
+        <ul>
+            <li>Document.body returns the body element of the page.</li>
+            <li>Document.images returns a node list of all the images.</li>
+            <li>Document.links returns a list of a elements and area elements that have an href attribute.</li>
+            <li>Document.anchors returns a list of all the a elements that have a name attribute.</li>
+            <li>Document.forms returns a list of all the forms in the document.</li>
+            <li>You can turn a node list into an array by using Array.from().</li>
+            <li>getElementsByTagName() will give you a list of all the elements that have the tag name of what you put in as an argument.</li>
+            <li>By using heroes.insertBefore(aquaman, wonderWoman); then aquaman would be added before wonderWoman in the list.</li>
+        </ul>
+    <h2>Events</h2>
+        <ul>
+            <li>An event listener lets the user know when a certain event has happened.</li>
+            <li>Other types of events include mouse events, keyboard events, and touch events.</li>
+            <li>When an event listener is added to a parent it is called event delegation.</li>
+            <li>Some events can happen when a user clicks on a certain key on the keyboard.</li>
+            <li>A touchstart event happens when the user touches the surface of something like a touchscreen or track pad.</li>
+            <li>A touchend event is when the user stops touching the surface.</li>
+            <li>Event propogation is the order that events are fired.</li>
+            <li></li>
+        </ul>
+</body>
+</html>
