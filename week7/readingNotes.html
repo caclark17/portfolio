@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 7 Reading Notes</title>
+</head>
+<body>
+    <h1>Week 7 Reading Notes</h1>
+        <h2>Further Functions</h2>
+            <ul>
+                <li>
+                   Functions can have properties and methods for themselves. 
+                </li>
+                <li>Null needs to be provided as a function's first argument when it's not referring to an object as <em>this.</em></li>
+                <li>Results can be saved in a cache so that when the argument is used multiple times it only has to comoute it once.</li>
+                <li>An IIFE is a function that is invoked as soon as it's defined by placing the whole function within parenthesis and placing parenthesis at the end of the function.</li>
+                    <p>Example:</p>
+                    <p>(function(){
+                        const temp='World';
+                        console.log(`Hello ${temp}`);
+                    })();
+                    </p>
+                <li>An IIFE is used when the code only needs to be run once and won't be used again.</li>
+                <li>The recommended way to use strict mode is to put all of your code in an IIFE.</li>
+                <li>A recursive function invokes itself until a certain condition is met. </li>
+                <li>Callbacks are functions that are passed to other functions as arguments and then invoked inside the function they are passed to.</li>
+                <li>Event-driven Asynchronous Programming -- I don't quite understand this. I need to look up more info.</li>
+                <li>When a function is defined inside another function then the inner function will have access to any variables that are declared in the outer function's scope. </li>
+                <li>An asterisk symbol is placed after a function declaration to define a generator function.</li>
+                <li>Fundamental elements of functional programming are being able to pass functions as arguments, return them from other functions, and use anonymous functions and closures. </li>
+                <li>The use of pure functions are a key aspect of functional programming. </li>
+                <li>Using const to declare variables will help avoid destructive data transformations.</li>
+                <li>Pure functions only perform one task.</li>
+                <li>The hypotenuse function usees the square function to square numbers.</li>
+                <li>A callback can be used to find the sum of an array of numbers.</li>
+                <li>The sum, square, and mean functions can be used to build a variance function.</li>
+                <li>Higher-order functions are functions that accept another function as a argument or return another function.</li>
+                <li>A doubler multiplies a parameter by the argument that was provided to the multiplier.</li>
+                <li>The multiplier is a higher order function.</li>
+                <li>Currying applies the partial application of functions.</li>
+                <li>A function is considered curried when not all arguments have been supplied to the function.</li>
+                <li>Curried functions are higher order functions.</li>
+                <li>Currying can turn a single function into a series of functions.</li>
+            </ul>
+    <h2>AJAX</h2>
+            <ul>
+                <li>A technique that allows web pages to communicate asynchronously with a server.</li>
+                <li>Updates web pages without reloading.</li>
+                <li>Enables data to be sent and receives and things to be updated while the program continues to run.</li>
+                <li>Two parts to the interne-- clients and servers.</li>
+                <li>Ajax was coined by Jesse James Garrett in 2005 (JavaScript and XML).</li>
+                <li>The redirect method can be used to redirect to another URL.</li>
+                <li>JSON is the most common format for AJAX responses.</li>
+                <li>You can create your own response objects using a constructor function.</li>
+                <li>Requested objects include the properties: url, method, headers, mode, cache, credentials, and redirect.</li>
+                <li>A constructor function is used to create a new request object.</li>
+                <li>After a request object is assigned to a variable it can be used as the parameter of the fetch method.</li>
+                <li> has() can be used to checl if the headers object contains the header provided as an argument.</li>
+                <li>set() can be used to set a value of an already existing header.</li>
+                <li>append() adds a new header to the headers object.</li>
+                <li>delete() removes the header provided as an argument.</li>
+            </ul>
+</body>
+</html>
