@@ -12,7 +12,7 @@ fetch(requestURL)
         plates.forEach(displayPlates);
     });
 
-    function displayPlate(plates) {
+    function displayPlates(plates) {
         let card = document.createElement('section');
         let photo = document.createElement('img');
         let plateName = document.createElement('h2');
@@ -21,8 +21,8 @@ fetch(requestURL)
 
 
         plateName.textContent = `${plates.name}`;
-        description.textContent = `Description: ${plates.explanation}`;
-        price.textContent = `Price: ${price.cost}`;
+        description.textContent = `Description: ${plates.description}`;
+        price.textContent = `Price: ${plates.price}`;
 
 
         photo.setAttribute('src', plates.photo);
@@ -30,7 +30,7 @@ fetch(requestURL)
 
         card.appendChild(photo);
         card.appendChild(plateName);
-        card.appendChild(explanation);
+        card.appendChild(description);
         card.appendChild(price);
 
         cards.appendChild(card);
