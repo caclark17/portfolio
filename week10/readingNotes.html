@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 10 Reading Notes</title>
+</head>
+<body>
+    <h1>Week 10 Reading Notes</h1>
+        <h2>Validating Forms</h2>
+            <ul>
+                <li>Client-side form validation helps to make sure that the information submitted matches the requirements.</li>
+                <li>All apps should perform security checks on both the client side and the server side.</li>
+                <li>Validation done in the browser is client-side validation.</li>
+                <li>Validation helps get the correct info, protest the user's data, and protect the business side from malicious users.</li>
+                <li>Validation attributes can be put on form elements.</li>
+                    <ul>Types of validation attributes</ul>
+                        <li>required</li>
+                        <li>Minlength and maxlength</li>
+                        <li>Min and max- specifies number of values</li>
+                        <li>Type (number, email, etc)</li>
+                        <li>Pattern</li>
+                <li>The browser will block the form from being sent if there is invalid information.</li>
+                <li>The constraint validation API has a set of methods and properties available.</li>
+    
+            </ul>
+        <h2>Using the Fetch API</h2>
+            <ul>
+                <li>The Fetch API allows for accessing and manipulating parts of the the protocol like requests and responses.</li>
+                <li>Before this, XMLHttpRequest was used.</li>
+                <li>To set up a basic fetch request:</li>
+                    <p>fetch('http://example.com/movies.json')</p>
+                    <p>  .then((response) => response.json())</p>
+                    <p>  .then ((data) => console.long(data));</p>
+                <li>Mulitple files can be accessed.</li>
+                <li>A text can be processed line by line.</li>
+                <li>A fetch promise will be rejected with a TypeError if it's not successful.</li>
+                <li>The request() accepts the same parameters as the fetch method.</li>
+                <li>The headers interface allows you to create your own headers with the Headers() constructor.</li>
+                <li>Request bodies can be set by passing body parameters.</li>
+            </ul>
+</body>
+</html>

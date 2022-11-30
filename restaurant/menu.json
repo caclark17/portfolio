@@ -1,0 +1,70 @@
+{
+    "plates": [
+        {
+            "name" : "Acai Bowl",
+            "description" : "An acai smoothies topped with blackberries, raspberries, blueberries, coconut, almonds, and mango.",
+            "price" : "$5.99",
+            "photo" : "images/acaiBowl.jpg"
+        },
+        {
+            "name" : "",
+            "description" : "",
+            "price" : "",
+            "photo" : ""
+        },
+        {
+            "name" : "",
+            "description" : "",
+            "price" : "",
+            "photo" : ""
+        },
+        {
+            "name" : "",
+            "description" : "",
+            "price" : "",
+            "photo" : ""
+        },
+        {
+            "name" : "",
+            "description" : "",
+            "price" : "",
+            "photo" : ""
+        },
+        {
+            "name" : "",
+            "description" : "",
+            "price" : "",
+            "photo" : ""
+        },
+        {
+            "name" : "",
+            "description" : "",
+            "price" : "",
+            "photo" : ""
+        },
+        {
+            "name" : "",
+            "description" : "",
+            "price" : "",
+            "photo" : ""
+        },
+        {
+            "name" : "",
+            "description" : "",
+            "price" : "",
+            "photo" : ""
+        },
+        {
+            "name" : "",
+            "description" : "",
+            "price" : "",
+            "photo" : ""
+        },
+        {
+            "name" : "",
+            "description" : "",
+            "price" : "",
+            "photo" : ""
+        }
+    ]
+}

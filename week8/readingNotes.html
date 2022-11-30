@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 8 Reading Notes</title>
+</head>
+<body>
+    <h1>Week 8 Reading Notes</h1>
+    <h2>Transforms</h2>
+        <ul>
+            <li>The transform property allows you to translate, rotate, scale, and/or skew any element on the page. </li>
+            <li>We can manipulate an element's appearance using transform functions.</li>
+            <li>One or more functions separated by spaces that will be applied in the order they're provided.</li>
+            <li>Translate functions allow you to move elements up, down, left or right.</li>
+            <li>When you employ a translate function you're moving elements without impacting the flow of the document.</li>
+            <li>When you're only mocing an elemnt vertuically or horizontally, you can use the translatex or translatey functions.</li>
+                <p>Example: to move 45px to the right along the x axis you would write "transform: translateX(45px)</p>
+                <p>Example: to move aong the y axis by 30px write "transform: translateY(-30px);</p>
+            <li>Transforms don't work on inline elements. To fix it add: display: inline-block;</li>
+            <li>The scale(x,y) function scales and elemnt bu the defined factors horizontally then vertically.</li>
+            <li>scale(1) would leave the element the same size, scale(2) would double its proportions, scale(0.5) would halve them.</li>
+            <li>You can use scaleX(x) or scaleY(y) functions.</li>
+            <li>A scaled element will grow outwards from or shrink inwards toward its center. To change the default behavior you can include the "transform-origin" property.</li>
+            <li>To declare multiple transformations provide a space-separated list .</li>
+            <li>If you scale inline-block elements then the trxt arounf it will fail to accommodate it with reflowing.</li>
+            <li>The rotate function rotates an element around the point of origin by a specified angle value.</li>
+            <li>By default the rotate function's point of origin is the element's center.</li>
+            <li>Positive degrees move clockwise and negative degrees more counter clockwise.</li>
+            <li>Declare the rotation before the translate so that it's applied first.</li>
+            <li>The skew(x,y) function specifies a skew along the x and y values.</li>
+            <li>Use the transform-origin property to control the origin from which the transforms are applied.</li>
+            <li>The order of transform functions matters, so if you rotate before translating then your translate direction will be on the rotated axis.</li>
+            <li>CSS transitions require less client-side processing than JavaScript so it ends up appearing smoother.</li>
+            <li>Transitions allow CSS properties to change over time.</li>
+            <li>CSS transitions are declared on an element.</li>
+            <li>Steps to creating a simple transition using only CSS:</li>
+                <ol>
+                    <li>Declare the original state of the elemnt in the default style declaration.</li>
+                    <li>Declare the final state of your transitioned element such as a hover state.</li>
+                    <li>Include the transition functions in your default style declaration using the transition properties including: transition-property, transition-duration, transition-timing, transition-timing-function, and transition-delay.</li>
+                    <li>The transition-property property defines the properties that should be transitioned. All is the default.</li>
+                    <li>In order to use a transition you have to be able to find a valid midpoint.</li>
+
+                    
+                </ol>
+                <p>Example: A property being changed from solid to dashed doesn't have a valid midpoint and cannot be transitioned.
+                    
+                </p>
+            <li>The -webkit- prefix needs to be included for all your transition properties to support older browsers.</li>
+            <li>The transition-duration property set how long the transition will take.</li>
+            <li>200 milliseconds is considered the optimum time for a transition.</li>
+            <li>The transition-timing-function lets you control the pace of the transition.</li>
+            <li>The most common timing functions are ease, kinear, ease-in, ease-out or ease-in-out.</li>
+            <li>Using a cubic-bezier function helps set the transition more precisely.</li>
+            <li>There is a transition-delay property to set a transition to not start right away in case a page hasn't completely loaded.</li>
+            <li>The transition property allows for multiple transitions in one call.</li>
+            
+        </ul>
+        <h2>Canvas, SVG, and Drag and Drop</h2>
+            <ul>
+                <li>We can draw shapes and lines, arcs and test, gradients and patterns with canvas.</li>
+                <li>Was first developed by Apple, then adopted by Mozilla and Opera, then standardized by the WHATWG.</li>
+                <li>Create a canvas element to start using.</li>
+                <li>A width and height must be set or it will be set by default to 300 width and 150 height.</li>
+                <li>Add a border to be able to see where it is on the page.</li>
+                <li>Use the getContext method and pass it a "2d" string.</li>
+                <li>Use strokeStyle for the stroke color and fillStyle for the fill color.</li>
+            </ul>
+</body>
+</html>
