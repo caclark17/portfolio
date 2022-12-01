@@ -16,55 +16,175 @@
             "name" : "BBQ Chicken Pizza",
             "description" : "A savory 10 inch pizza topped with barbeque sauce, mozzarella cheese, pineapple, red onion, and cilantro.",
             "price" : "$11.99",
-            "photo" : "images."
+            "photo" : "images/bbqPizza.jpg"
         },
         {
-            "name" : "",
-            "description" : "",
-            "price" : "",
-            "photo" : ""
+            "name" : "Brownie",
+            "description" : "Homemade and drizzled with chocolate syrup",
+            "price" : "$3.99",
+            "photo" : "images/brownie.jpg"
         },
         {
-            "name" : "",
+            "name" : "Buffalo Chicken Sandwich",
             "description" : "",
             "price" : "",
-            "photo" : ""
+            "photo" : "images/buffaloChickenSandwich.jpg"
         },
         {
-            "name" : "",
+            "name" : "Hamburger",
             "description" : "",
             "price" : "",
-            "photo" : ""
+            "photo" : "images/burger.jpg"
         },
         {
-            "name" : "",
+            "name" : "Caprese Pasta",
             "description" : "",
             "price" : "",
-            "photo" : ""
+            "photo" : "iamges/capresePasta.jpg"
         },
         {
-            "name" : "",
+            "name" : "Cheeseburger",
             "description" : "",
             "price" : "",
-            "photo" : ""
+            "photo" : "images/cheeseburger.jpg"
         },
         {
-            "name" : "",
+            "name" : "Chicken Wings",
             "description" : "",
             "price" : "",
-            "photo" : ""
+            "photo" : "images/chicken-wings.jpg"
         },
         {
-            "name" : "",
+            "name" : "Chicken and Rice",
             "description" : "",
             "price" : "",
-            "photo" : ""
+            "photo" : "images/chickenAndRice.jpg"
         },
         {
-            "name" : "",
+            "name" : "Chicken Burrito",
             "description" : "",
             "price" : "",
-            "photo" : ""
+            "photo" : "images/chickenBurrito.jpg"
+        },
+        {
+            "name" : "Chicken Stroganoff",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/chickenStroganoff.jpg"
+        },
+        {
+            "name" : "Chocolate Cake",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/chocolateCake.jpg"
+        },
+        {
+            "name" : "Chocolate Cheesecake",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/chocolateCheesecake.jpg"
+        },
+        {
+            "name" : "Club Sandwich",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/clubSandwich.jpg"
+        },
+        {
+            "name" : "Fish",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/fish.jpg"
+        },
+        {
+            "name" : "French Fries",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/fries.jpg"
+        },
+        {
+            "name" : "Beef Kebabs",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/kebabs.jpg"
+        },
+        {
+            "name" : "Lamb",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/lamb.jpg"
+        },
+        {
+            "name" : "Lemon Chicken",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/lemon-chicken.jpg"
+        },
+        {
+            "name" : "Orange Chicken",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/orange-chicken.jpg"
+        },
+        {
+            "name" : "Pork Chop",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/porkChop.jpg"
+        },
+        {
+            "name" : "Rice and Zucchini",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/riceAndZucchini.jpg"
+        },
+        {
+            "name" : "Salad",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/salad.jpg"
+        },
+        {
+            "name" : "Salad",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/salad2.jpg"
+        },
+        {
+            "name" : "Salmon",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/salmon.jpg"
+        },
+        {
+            "name" : "Sliders",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/slider.jpg"
+        },
+        {
+            "name" : "Steak",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/steak.jpg"
+        },
+        {
+            "name" : "Strawberries and Cream",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/strawberriesAndCream.jpg"
+        },
+        {
+            "name" : "Sweet Potato Nachos",
+            "description" : "",
+            "price" : "",
+            "photo" : "iamges/sweetPotatoNachos.jpg"
+        },
+        {
+            "name" : "Tomato Soup",
+            "description" : "",
+            "price" : "",
+            "photo" : "images/tomatoSoup.jpg"
         }
     ]
 }

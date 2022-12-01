@@ -19,11 +19,9 @@ fetch(requestURL)
         let description = document.createElement('p');
         let price = document.createElement('p');
 
-
         plateName.textContent = `${plates.name}`;
         description.textContent = `Description: ${plates.description}`;
         price.textContent = `Price: ${plates.price}`;
-
 
         photo.setAttribute('src', plates.photo);
         photo.setAttribute('alt', `Photo for ${plates.name}`);
