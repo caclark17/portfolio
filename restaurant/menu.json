@@ -7,16 +7,16 @@
             "photo" : "images/acaiBowl.jpg"
         },
         {
-            "name" : "",
-            "description" : "",
-            "price" : "",
-            "photo" : ""
+            "name" : "Bacon Wrapped Chestnuts",
+            "description" : "A delicious appetizer of oven roasted water chestnuts wrapped in bacon.",
+            "price" : "$4.99",
+            "photo" : "images/baconWrappedChestnuts.jpg"
         },
         {
-            "name" : "",
-            "description" : "",
-            "price" : "",
-            "photo" : ""
+            "name" : "BBQ Chicken Pizza",
+            "description" : "A savory 10 inch pizza topped with barbeque sauce, mozzarella cheese, pineapple, red onion, and cilantro.",
+            "price" : "$11.99",
+            "photo" : "images."
         },
         {
             "name" : "",
