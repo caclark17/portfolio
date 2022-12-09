@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+header {
+    background-color: #37514d;
+    height: 10em;
+}
+
+h1 {
+    font-family: 'Corinthia', cursive;
+    text-align: center;
+    font-size: 4em;
+    color: white;
+    padding-top: .7em;
+}
+
+
+h2, h3, p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(30rem, 1fr));
+    row-gap: 1em;
+    margin: 2px;
+    border: none;
+    padding: 1em;
+    text-align: center;
+    margin-left: 8rem;
+    max-width: 80%;
+    color: #37514d;
+}
