@@ -20,6 +20,10 @@ h2, h3, p {
 
 }
 
+.menu {
+    text-align: center;
+}
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400PX, 1fr));
