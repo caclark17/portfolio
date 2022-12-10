@@ -178,7 +178,7 @@
             "name" : "Sweet Potato Nachos",
             "description" : "Nachos made with sweet potatoes topped with black beans, sour cream, cilantro and pico de gallo",
             "price" : "$10.99",
-            "photo" : "iamges/sweetPotatoNachos.jpg"
+            "photo" : "images/sweetPotatoNachos.jpg"
         },
         {
             "name" : "Tomato Soup",
