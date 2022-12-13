@@ -33,3 +33,19 @@ fetch(requestURL)
 
         cards.appendChild(card);
     }
+
+
+//Fixed Header
+const title = document.querySelector('#restName');
+const topOfHeader = title.offsetTop;
+
+function fixedHeader() {
+    if(window.scrollY >= topOfHeader) {
+        document.body.classList.add('fixed-header');
+    } else {
+        document.body.style.paddingTop = 0;
+        document.body.classList.remove('fixed-header');
+    }
+}
+
+window.addEventListener('scroll', fixedHeader);
