@@ -1,10 +1,22 @@
 {
     "plates": [
         {
-            "name" : "Acai Bowl",
-            "description" : "An acai smoothies topped with blackberries, raspberries, blueberries, coconut, almonds, and mango.",
-            "price" : "$5.99",
-            "photo" : "images/acaiBowl.jpg"
+            "name" : "Sweet Potato Nachos",
+            "description" : "Nachos made with sweet potatoes topped with black beans, sour cream, cilantro and pico de gallo",
+            "price" : "$10.99",
+            "photo" : "images/sweetPotatoNachos.jpg"
+        },
+        {
+            "name" : "Chicken Wings",
+            "description" : "Eight baked buffalo wings served with a side of Ranch or Blue Cheese.",
+            "price" : "$9.99",
+            "photo" : "images/chicken-wings.jpg"
+        },
+        {
+            "name" : "French Fries",
+            "description" : "Crispy delicious french fries.",
+            "price" : "$4.99",
+            "photo" : "images/fries.jpg"
         },
         {
             "name" : "Bacon Wrapped Chestnuts",
@@ -13,16 +25,34 @@
             "photo" : "images/baconWrappedChestnuts.jpg"
         },
         {
+            "name" : "Salad",
+            "description" : "A nutrition-packed salad with hard boiled eggs, edamame, tomatoes, corn, cucumbers, chicken and red cabbage.",
+            "price" : "$10.99",
+            "photo" : "images/salad.jpg"
+        },
+        {
+            "name" : "Salad",
+            "description" : "Green leaf lettuce with avocados, garbanzo beans, radishes, sweet potatoes, red cabbage, and yellow bell peppers.",
+            "price" : "$11.99",
+            "photo" : "images/salad2.jpg"
+        },
+        {
+            "name" : "Sliders",
+            "description" : "6 sliders topped with cheese, pickles, onions, and ketchup",
+            "price" : "$8.99",
+            "photo" : "images/slider.jpg"
+        },
+        {
             "name" : "BBQ Chicken Pizza",
             "description" : "A savory 10 inch pizza topped with barbeque sauce, mozzarella cheese, pineapple, red onion, and cilantro.",
             "price" : "$11.99",
             "photo" : "images/bbqPizza.jpg"
         },
         {
-            "name" : "Brownie",
-            "description" : "Homemade and drizzled with chocolate syrup",
-            "price" : "$3.99",
-            "photo" : "images/brownie.jpg"
+            "name" : "Tomato Soup",
+            "description" : "Hot and delicious house made tomato basil soup",
+            "price" : "$7.99",
+            "photo" : "images/tomatoSoup.jpg"
         },
         {
             "name" : "Buffalo Chicken Sandwich",
@@ -37,23 +67,25 @@
             "photo" : "images/burger.jpg"
         },
         {
-            "name" : "Caprese Pasta",
-            "description" : "Whole wheat spaghetti noodles with cherry tomatoes, mozzarella, fresh basil, and balsamic vinegar.",
-            "price" : "$11.99",
-            "photo" : "images/capresePasta.jpg"
-        },
-        {
             "name" : "Cheeseburger",
             "description" : "1/3 pound patty topped with American cheese, lettuce, tomato, onion and served with a side of potato wedges.",
             "price" : "$11.99",
             "photo" : "images/cheeseburger.jpg"
         },
         {
-            "name" : "Chicken Wings",
-            "description" : "Eight baked buffalo wings served with a side of Ranch or Blue Cheese.",
-            "price" : "$9.99",
-            "photo" : "images/chicken-wings.jpg"
+            "name" : "Club Sandwich",
+            "description" : "Layers of grilled turkey with tomato, lettuce, tomatoes, and American cheese.",
+            "price" : "$10.99",
+            "photo" : "images/clubSandwich.jpg"
         },
+        {
+            "name" : "Caprese Pasta",
+            "description" : "Whole wheat spaghetti noodles with cherry tomatoes, mozzarella, fresh basil, and balsamic vinegar.",
+            "price" : "$11.99",
+            "photo" : "images/capresePasta.jpg"
+        },
+
+
         {
             "name" : "Chicken and Rice",
             "description" : "Roasted Chicken with Rice Pilaf.",
@@ -72,42 +104,29 @@
             "price" : "$12.99",
             "photo" : "images/chickenStroganoff.jpg"
         },
-        {
-            "name" : "Chocolate Cake",
-            "description" : "Two layers of rich chocolate cake with chocolate mousse and a raspberry topping.",
-            "price" : "$5.99",
-            "photo" : "images/chocolateCake.jpg"
-        },
-        {
-            "name" : "Chocolate Cheesecake",
-            "description" : "Rich chocolate cake with a layer of cheesecake and sprinkled with cocoa powder.",
-            "price" : "$6.99",
-            "photo" : "images/chocolateCheesecake.jpg"
-        },
-        {
-            "name" : "Club Sandwich",
-            "description" : "Layers of grilled turkey with tomato, lettuce, tomatoes, and American cheese.",
-            "price" : "$10.99",
-            "photo" : "images/clubSandwich.jpg"
-        },
+
+
+
         {
             "name" : "Fish",
             "description" : "Grilled Salmon served on a bed of lettuce with avocado and cherry tomatoes.",
             "price" : "$14.99",
             "photo" : "images/fish.jpg"
         },
-        {
-            "name" : "French Fries",
-            "description" : "Crispy delicious french fries.",
-            "price" : "$4.99",
-            "photo" : "images/fries.jpg"
-        },
+
         {
             "name" : "Beef Kebabs",
             "description" : "Beef, onions, tomatoes, and zucchini.",
             "price" : "$8.99",
             "photo" : "images/kebabs.jpg"
         },
+        {
+            "name" : "Sirloin Steak",
+            "description" : "12 oz sirloin grilled to your liking",
+            "price" : "$11.99",
+            "photo" : "images/steak.jpg"
+        },
+
         {
             "name" : "Lamb",
             "description" : "Slow roasted lamb served on a bed of mixed vegetables.",
@@ -138,36 +157,17 @@
             "price" : "$7.99",
             "photo" : "images/riceAndZucchini.jpg"
         },
-        {
-            "name" : "Salad",
-            "description" : "A nutrition-packed salad with hard boiled eggs, edamame, tomatoes, corn, cucumbers, chicken and red cabbage.",
-            "price" : "$10.99",
-            "photo" : "images/salad.jpg"
-        },
-        {
-            "name" : "Salad",
-            "description" : "Green leaf lettuce with avocados, garbanzo beans, radishes, sweet potatoes, red cabbage, and yellow bell peppers.",
-            "price" : "$11.99",
-            "photo" : "images/salad2.jpg"
-        },
+
         {
             "name" : "Salmon",
             "description" : "Wild Caught salmon grilled to perfection!",
             "price" : "$14.99",
             "photo" : "images/salmon.jpg"
         },
-        {
-            "name" : "Sliders",
-            "description" : "6 sliders topped with cheese, pickles, onions, and ketchup",
-            "price" : "$8.99",
-            "photo" : "images/slider.jpg"
-        },
-        {
-            "name" : "Sirloin Steak",
-            "description" : "12 oz sirloin grilled to your liking",
-            "price" : "$11.99",
-            "photo" : "images/steak.jpg"
-        },
+
+
+
+
         {
             "name" : "Strawberries and Cream Dessert",
             "description" : "Homemade whipped cream with farm fresh strawberries",
@@ -175,16 +175,28 @@
             "photo" : "images/strawberriesAndCream.jpg"
         },
         {
-            "name" : "Sweet Potato Nachos",
-            "description" : "Nachos made with sweet potatoes topped with black beans, sour cream, cilantro and pico de gallo",
-            "price" : "$10.99",
-            "photo" : "images/sweetPotatoNachos.jpg"
+            "name" : "Chocolate Cheesecake",
+            "description" : "Rich chocolate cake with a layer of cheesecake and sprinkled with cocoa powder.",
+            "price" : "$6.99",
+            "photo" : "images/chocolateCheesecake.jpg"
         },
         {
-            "name" : "Tomato Soup",
-            "description" : "Hot and delicious house made tomato basil soup",
-            "price" : "$7.99",
-            "photo" : "images/tomatoSoup.jpg"
+            "name" : "Chocolate Cake",
+            "description" : "Two layers of rich chocolate cake with chocolate mousse and a raspberry topping.",
+            "price" : "$5.99",
+            "photo" : "images/chocolateCake.jpg"
+        },
+        {
+            "name" : "Acai Bowl",
+            "description" : "An acai smoothies topped with blackberries, raspberries, blueberries, coconut, almonds, and mango.",
+            "price" : "$5.99",
+            "photo" : "images/acaiBowl.jpg"
+        },
+        {
+            "name" : "Brownie",
+            "description" : "Homemade and drizzled with chocolate syrup",
+            "price" : "$3.99",
+            "photo" : "images/brownie.jpg"
         }
     ]
 }
