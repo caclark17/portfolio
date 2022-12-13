@@ -34,6 +34,22 @@ fetch(requestURL)
         cards.appendChild(card);
     }
 
+//Map API
+function initMap() {
+    const options = {
+        zoom:14,
+        center:{lat:40.7608,lng:-111.8910}
+    }
+
+    const map = new
+    google.maps.Map(document.getElementById('map'),options);
+
+    const marker = new google.maps.Marker({
+        position:{lat:40.7608,lng:-111.8910},
+        map:map
+    })
+}
+
 
 //Fixed Header
 const title = document.querySelector('#restName');
