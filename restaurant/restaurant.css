@@ -14,9 +14,14 @@ h1 {
     padding-top: .7em;
 }
 
+h2 {
+    text-decoration: underline;
+}
+
 
 h2, h3, p {
     font-family: 'Open Sans', sans-serif;
+    color: #90aeb2;
 
 } 
 
